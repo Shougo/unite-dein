@@ -1,0 +1,35 @@
+*unite-dein.txt*	Dein.vim source for unite.vim
+
+Author:  Shougo <Shougo.Matsu at gmail.com>
+License: MIT license
+
+==============================================================================
+CONTENTS 						*unite-dein-contents*
+
+Unite Sources		|dein-unite-sources|
+
+
+==============================================================================
+UNITE SOURCES						*dein-unite-sources*
+
+Here let me explain about a source for unite plugin provided in dein.
+
+						*dein-unite-source-dein*
+dein
+		Nominates dein plugins as candidates.
+
+		Note:
+		If argument is bang(!), print plugins status.
+
+						*dein-unite-source-dein_log*
+dein_log
+		Print previous dein install logs.
+		And you can jump the diff URI in github.
+
+		If argument 1 is "!", the updated logs are displayed.
+
+		Source arguments:
+		1. "!"
+
+==============================================================================
+vim:tw=78:ts=8:ft=help:norl:noet:fen:
